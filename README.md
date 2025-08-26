@@ -4,7 +4,7 @@
 ------------------------------------------------------------------------
 
 This Android app leverages a TensorFlow Lite model for on-device
-classification of social media posts into 11 categories, including
+classification of social media posts into 10+ categories, including
 technology, sports, finance, and more. Built with Kotlin and Jetpack
 Compose, it ensures efficient, privacy-focused inference without server
 dependencies.
