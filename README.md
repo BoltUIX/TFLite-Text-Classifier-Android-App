@@ -1,4 +1,5 @@
 # TFLite Text Classifier Android App
+![How to Use TensorFlow Lite for Text Classification in Jetpack Compose](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxW1gOAZgRe8G3nD_Pw4quU5b4AK3ensLRIEWL04WwJHst17xzAKKNZBDCiMFpU3MG5imsmGQ8CnOJJzMWbQwvwWXopMjW-F13HjwsciXKsP-5XQe3S-iQW3LzqQLzpPrGg04J46rAgqChnsJeC0LF0fAvLpOGgv4IftvutkYbbfMGqNU7HYyFbPbMSyI/s16000/How%20to%20Use%20TensorFlow%20Lite%20for%20Text%20Classification%20in%20Jetpack%20Compose.png)
 
 ------------------------------------------------------------------------
 
