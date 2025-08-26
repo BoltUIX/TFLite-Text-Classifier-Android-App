@@ -25,11 +25,11 @@ Compose](https://img.shields.io/badge/Jetpack-Compose-green.svg)](https://develo
 
 ## Features
 
--    **On-device classification** using TensorFlow Lite\
--    **Jetpack Compose UI** for modern Android apps\
--    **Multi-line input** for flexible text entry\
--    **Probability distribution** for each category\
--    **Fast & lightweight inference** with no server calls\
+-    **On-device classification** using TensorFlow Lite
+-    **Jetpack Compose UI** for modern Android apps
+-    **Multi-line input** for flexible text entry
+-    **Probability distribution** for each category
+-    **Fast & lightweight inference** with no server calls
 -    **Manual tokenizer** with `vocab.txt` for reproducibility
 
 ------------------------------------------------------------------------
@@ -39,10 +39,10 @@ Compose](https://img.shields.io/badge/Jetpack-Compose-green.svg)](https://develo
 The repository includes a Jupyter notebook **`Android.ipynb`**,
 containing the full **training pipeline** for the classifier:
 
--    Load & preprocess training data\
--    Tokenization with `TextVectorization`\
--    Build & train a Keras model\
--    Convert the model to `.tflite` format\
+-    Load & preprocess training data
+-    Tokenization with `TextVectorization`
+-    Build & train a Keras model
+-    Convert the model to `.tflite` format
 -    Export `vocab.txt` and `labels.txt` for Android usage
 
 Use this notebook to retrain or fine-tune your model while ensuring
@@ -52,10 +52,10 @@ Use this notebook to retrain or fine-tune your model while ensuring
 
 ## Model Overview
 
--   **Model file**: `model_with_softmax.tflite`\
--   **Input**: `int32[1, 50]` → tokenized & padded sequence\
--   **Output**: `float32[1, 10]` → probability vector (softmax)\
--   **Tokenizer**: `vocab.txt` from training (`TextVectorization`)\
+-   **Model file**: `model_with_softmax.tflite`
+-   **Input**: `int32[1, 50]` → tokenized & padded sequence
+-   **Output**: `float32[1, 10]` → probability vector (softmax)
+-   **Tokenizer**: `vocab.txt` from training (`TextVectorization`)
 -   **Labels**: `labels.txt` with 11 categories
 
 ------------------------------------------------------------------------
@@ -125,9 +125,9 @@ Column {
 
 ## Notes
 
--   The `.tflite` model **must include softmax**\
--   `vocab.txt` and `labels.txt` must match training data\
--   Assets must be placed in `app/src/main/assets/` (not `res/`)\
+-   The `.tflite` model **must include softmax**
+-   `vocab.txt` and `labels.txt` must match training data
+-   Assets must be placed in `app/src/main/assets/` (not `res/`)
 -   Use `coerceIn()` to ensure predictions remain between `0–1`
 
 ------------------------------------------------------------------------
